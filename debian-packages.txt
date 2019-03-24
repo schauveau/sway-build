@@ -4,7 +4,8 @@ g++
 pkg-config
 make
 meson
-ninja
+ninja-build
+xwayland
 # Development packages
 # Generated from all .pc files accessed during a full build
 libblkid-dev

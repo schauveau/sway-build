@@ -95,7 +95,7 @@ BUILD_SUFFIX=
 
 ############################################################
 #
-# A few variables that you probably do not want to configure
+# A few variables that you probably do not need to change
 #
 #############################################################
 
@@ -370,7 +370,7 @@ swayidle-all-install:
 
 ##################################################################
 #
-# Swaylock: This is sway's idle management daemon
+# Swaylock: A lockscreen application for Sway
 #
 ##################################################################
 

@@ -64,7 +64,8 @@ be needed when installing in `/usr/local`.
 When using a non-standard target directory, it may be necessary 
 to define a few environment varables (PATH, LD_LIBRARY_PATH, PKG_CONFIG_PATH, MANPATH, ...).
 
-Use `make generate-env.sh` to produce a suitable shell script in `$(BUILD_DIR)/env.sh`.
+Use `make env-sh-build` (or the script `generate-env.sh`) to produce a suitable shell
+script in `$(BUILD_DIR)/env.sh`.
 
 And of course, you need to **source** that generated script before compiling the 
 various packages (because of pkg-config) and before starting your sway desktop.
