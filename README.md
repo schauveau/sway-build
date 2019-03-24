@@ -59,6 +59,8 @@ A typical value is `lib` but other values such as `lib32`,
 `lib64` or `lib/x86_64-linux-gnu` are possible. That should not 
 be needed when installing in `/usr/local`.
 
+A few other variables can be customized. Please refer the Makefile for more details. 
+
 ## Environment Variables
 
 When using a non-standard target directory, it may be necessary 
