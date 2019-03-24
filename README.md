@@ -98,8 +98,11 @@ Generate a shell script to set the required environment variables in $(BUILD_DIR
 
 Clone the sources from git in directory `$SRC_DIR/xxxx/`:
 
-* for most packages, the default behavior is to clone the `master` branch
-* `git clone` is made significantly accelerated with the option `--depth=1` but that means that no history is available in the local git repository.
+* For most packages, the default behavior is to clone the `master` branch
+
+* Be aware that `git clone` is made significantly faster by dropping the
+  history with the option `--depth=1`. That behavior may not be desirable if
+  you intend to develop in that source directory.
 
 ### make xxxx-git-pull
 
