@@ -32,7 +32,7 @@ echo "LD_LIBRARY_PATH=\"$PREFIX/lib:\$LD_LIBRARY_PATH\""
 echo "PKG_CONFIG_PATH=\"$PREFIX/lib/pkgconfig:\$PKG_CONFIG_PATH\""
 
 echo "PATH=\"$PREFIX/bin:\$PATH\""
-echo "MANPATH=\"$PREFIX/bin:\$MANPATH\""
+echo "MANPATH=\"$PREFIX/share/man:\$MANPATH\""
 echo
 echo "export PATH"
 echo "export MANPATH"
